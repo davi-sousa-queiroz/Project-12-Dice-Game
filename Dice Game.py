@@ -10,5 +10,6 @@ time.sleep(1)
 # -------------- GAME VARIABLES ----------------
 money = 250
 # ----------------- FUNCTIONS -------------------
-
+def guess_number():
+    guess = input("What's your guess? (1-6): ")
 # -------------- MAIN GAME LOOP -----------------
