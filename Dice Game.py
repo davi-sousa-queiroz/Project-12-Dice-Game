@@ -14,7 +14,7 @@ def intro():
     time.sleep(1)
     print(f"Current money: {money}")
 
-def check_guess(guess, dice_number):
+def check_guess(guess):
     global money
 
     print("Rolling dice...")
