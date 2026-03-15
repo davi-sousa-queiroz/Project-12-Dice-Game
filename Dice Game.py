@@ -26,8 +26,8 @@ def check_guess(guess, dice_number):
     if guess == dice_number:
         print("You win!")
         time.sleep(1)
-        money += 300
-        print("+300$")
+        money += 450
+        print("+450$")
     else:
         print("You lose!")
         time.sleep(1)
