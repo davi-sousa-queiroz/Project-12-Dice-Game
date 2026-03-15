@@ -15,6 +15,7 @@ def intro():
     print(f"Current money: {money}")
 
 def guess_number():
+    print("========================================")
     guess = input("What's your guess? (1-6): ")
 
 def roll():
