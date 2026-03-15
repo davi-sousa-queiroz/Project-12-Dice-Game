@@ -1,3 +1,4 @@
+# ----------- IMPORTS AND GAME INTRO ------------
 import time
 import random
 print("Welcome to Dice Game! 🎲")
