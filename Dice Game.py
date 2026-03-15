@@ -5,6 +5,7 @@ import random
 money = 250
 # ----------------- FUNCTIONS -------------------
 def intro():
+    global money
     print("Welcome to Dice Game! 🎲")
     time.sleep(1)
     print("Make 1000$ to win! 🤑")
