@@ -32,6 +32,5 @@ def check_guess(guess, dice_number):
         print("You lose!")
         time.sleep(1)
         money -= 75
-
-
+        print("-75$")
 # -------------- MAIN GAME LOOP -----------------
