@@ -23,4 +23,17 @@ def roll():
     dice_number = random.randint(1, 6)
     print("You rolled " + str(dice_number))
     time.sleep(1)
+
+def check_guess(guess, dice_number):
+    global money
+    if guess == dice_number:
+        print("You win!")
+        time.sleep(1)
+        money += 300
+    else:
+        print("You lose!")
+        time.sleep(1)
+        money -= 75
+
+
 # -------------- MAIN GAME LOOP -----------------
