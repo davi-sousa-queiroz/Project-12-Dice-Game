@@ -2,7 +2,7 @@
 import time
 import random
 # -------------- GAME VARIABLES ----------------
-money = 250
+money = 300
 # ----------------- FUNCTIONS -------------------
 def intro():
     global money
