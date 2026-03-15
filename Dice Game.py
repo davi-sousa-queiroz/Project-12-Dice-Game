@@ -13,7 +13,6 @@ def intro():
     print("Go bankrupt to lose 😓💼...")
     time.sleep(1)
     print(f"Current money: {money}")
-
 def check_guess(guess):
     global money
 
