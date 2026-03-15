@@ -16,6 +16,13 @@ def intro():
 
 def check_guess(guess, dice_number):
     global money
+
+    print("Rolling dice...")
+    time.sleep(1)
+    dice_number = random.randint(1, 6)
+    print("You rolled " + str(dice_number))
+    time.sleep(1)
+
     if guess == dice_number:
         print("You win!")
         time.sleep(1)
