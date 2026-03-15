@@ -12,6 +12,7 @@ def intro():
     time.sleep(1)
     print("Go bankrupt to lose 😓💼...")
     time.sleep(1)
+    print(f"Current money: {money}")
 
 def guess_number():
     guess = input("What's your guess? (1-6): ")
